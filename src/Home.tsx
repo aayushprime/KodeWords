@@ -52,7 +52,7 @@ const Home = () => {
           }}>
           <button className="Button Spymaster">Join as Spymaster</button>
         </Link>
-        <Link to={`/game${selectedList}/${roomid}/operative`} className="Link" onClick={(e: any) => onLinkClick("operative", e)}>
+        <Link to={`/game/${selectedList}/${roomid}/operative`} className="Link" onClick={(e: any) => onLinkClick("operative", e)}>
           <button className="Button Operative">Join as Operatives</button>
         </Link>
       </div>
